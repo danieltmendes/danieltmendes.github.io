@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132483517-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132483517-1');
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="http://getbootstrap.com/favicon.ico">-->
+    <link rel="shortcut icon" href="icon.png" />
+
+    <title>Daniel Mendes</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">Daniel Mendes</div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a onclick="javascript:gotoSection('aboutme');">About me</a></li>
+            <li><a onclick="javascript:gotoSection('projects');">Projects</a></li>
+            <li><a onclick="javascript:gotoSection('publications');">Publications</a></li>
+            <li><a onclick="javascript:gotoSection('students');">Students</a></li>
+            <li><a onclick="javascript:gotoSection('teaching');">Teaching</a></li>
+            <li><a onclick="javascript:gotoSection('contacts');">Contacts</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- about me -->
+      <a name="aboutme"></a> 
+      <div class="section aboutme">
+        <h2>About me</h2>
+        <div class="content row">
+          <div class="image col-md-4" style="width:200px;height:200px;"><div id="face"></div><!--<img src="imgs/eu120_2.jpg" />--></div>
+          <div class="col-md-8"><h3>Daniel Mendes, PhD</h3>I am a postdoctoral researcher at INESC TEC and an Invited Assistant Professor at Faculty of Engineering of the University of Porto. Received my PhD (2018), MSc (2011) and BSc (2008) degrees in Computer Science and Engineering from Instituto Superior Técnico, University of Lisbon. My work is manily focused on virtual and augmented reality, multimodal interfaces, 3D user interfaces and touch / gesture-based interactions. I was in the organizing committee of the ACM ISS 2020 and Eurographics 2016 conferences. I am member of ACM, IEEE, Eurographics and the Portuguese Group for Computer Graphics.</div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <a name="projects"></a> 
+      <div class="section projects">
+        <h2>Projects</h2>
+        <div class="content">
+          <a href="https://dei.fe.up.pt/gig/projects/painter/" target="_blank"><img src="imgs/painter.png" style="height:80px;padding:10px 5px;" /></a>
+          <a href="http://sites.google.com/tecnico.ulisboa.pt/visbig" target="_blank"><img src="imgs/visbig.png" style="height:80px;padding:10px 5px;" /></a>
+          <a href="http://it-medex.inesc-id.pt/" target="_blank"><img src="imgs/itmedex.png" style="height:80px;padding:10px 5px;" /></a>
+          <a href="http://tecton3d.ist.utl.pt/" target="_blank"><img src="imgs/tecton.png" style="height:90px;padding:5px;" /></a>
+          <a href="http://sites.google.com/site/oilcedar/" target="_blank"><img src="imgs/cedar.jpg" style="height:90px;padding:5px;" /></a>
+          <a href="http://albertidigital.ces.uc.pt/" target="_blank"><img src="imgs/alberti.jpg" style="height:90px;padding:5px;" /></a>
+          <a href="http://tecton3d.ist.utl.pt/mivis/" target="_blank"><img src="imgs/mivis.png" style="height:90px;padding:5px;" /></a>
+          <a href="http://3dorus.ist.utl.pt/" target="_blank"><img src="imgs/3dorus.png" style="height:90px;padding:5px;" /></a>
+        </div>
+      </div>
+
+      <!-- publications -->
+      <a name="publications"></a> 
+      <div class="section publications">
+        <h2>Publications</h2>
+        <div class="content">
+        
+          <h3 class="year y2020"><a onclick="javascript:showPublications('2020');">2020</a></h3>
+        
+          <div class="publication row 2020 recent">
+            <div class="image col-md-2"><img src="imgs/2020iss.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Collaborative Tabletops for Blind People: The Effect of Auditory Design on Workspace Awareness</div>
+              <div class="authors">Daniel Mendes, Sofia Reis, João Guerreiro, Hugo Nicolau</div>
+              <div class="conference">ISS 2020 <img src="imgs/award16.png" /><b>Best Paper Award</b></div>
+              <div class="links"><a target="_blank" href="papers/2020/3427325.pdf">Paper</a></div>
+            </div>
+          </div>
+        
+          <div class="publication row 2020 recent">
+            <div class="image col-md-2"><img src="imgs/2020vis.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Evaluating Animated Transitions between Contiguous Visualizations for Streaming Big Data</div>
+              <div class="authors">Tiago Pereira, João Moreira, Daniel Mendes, Daniel Gonçalves</div>
+              <div class="conference">VIS 2020</div>
+              <div class="links"><a target="_blank" href="papers/2020/InfoVis_20_Pereira.pdf">Paper</a></div>
+            </div>
+          </div>
+        
+          <div class="publication row 2020 recent">
+            <div class="image col-md-2"><img src="imgs/2020avi.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Incidental Visualizations: Pre-Attentive Primitive Visual Tasks</div>
+              <div class="authors">João Moreira, Daniel Mendes, Daniel Gonçalves</div>
+              <div class="conference">AVI 2020</div>
+              <div class="links"><a target="_blank" href="papers/2020/avi2020-moreira.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2019"><a onclick="javascript:showPublications('2019');">2019</a></h3>
+          
+          
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/icgi19.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">VisMillion: A novel interactive visualization technique for real-time big data</div>
+              <div class="authors">Gonçalo Pires, Daniel Mendes, Daniel Gonçalves</div>
+              <div class="conference">ICGI 2019</div>
+              <div class="links"><a target="_blank" href="papers/2019/08955070.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/vrcai19_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Safe Walking in VR</div>
+              <div class="authors">Mauricio Sousa, Daniel Mendes, Joaquim Jorge</div>
+              <div class="conference">VRCAI 2019</div>
+              <div class="links"><a target="_blank" href="papers/2019/3359997.3365737.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/vrcai19_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Negative Space: Investigating Workspace Awareness in 3D Face-to-face Remote Collaboration	</div>
+              <div class="authors">Mauricio Sousa, Daniel Mendes, Rafael Kuffner dos Anjos, Daniel Simões Lopes, Joaquim Jorge	</div>
+              <div class="conference">VRCAI 2019</div>
+              <div class="links"><a target="_blank" href="papers/2019/3359997.3365744.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/vrst19.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Adventures in Hologram Space: Exploring the Design Space of Eye-to-eye Volumetric Telepresence</div>
+              <div class="authors">Rafael Kuffner Dos Anjos, Maurício Sousa, Daniel Medeiros, Daniel Mendes, Mark Billinghurst, Craig Anslow, Joaquim Jorge</div>
+              <div class="conference">VRST 2019</div>
+              <div class="links"><a target="_blank" href="papers/2019/3359996.3364244.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/cag19.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Anatomy Studio: a Tool for Virtual Dissection Through Augmented 3D Reconstruction</div>
+              <div class="authors">Ezequiel Zorzal, Maurício Sousa, Daniel Mendes, Rafael Kuffner dos Anjos, Daniel Medeiros, Soraia Paulo, Pedro Rodrigues, José Mendes, Vincent Delmas, Jean-Francois Uhl, José Mogorrónd, Joaquim Jorge, Daniel Simões Lopes</div>
+              <div class="conference">Computers &amp; Graphics (In Press)</div>
+              <div class="links"><a target="_blank" href="papers/2019/1-s2.0-S0097849319301578-main.pdf">Paper</a><!--<a target="_blank" href="https://www.youtube.com/watch?v=P2BvFkvsl9Y">Video</a>--></div>
+            </div>
+          </div>
+          <div class="publication row 2019">
+            <div class="image col-md-2"><img src="imgs/chi19.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Warping Deixis: Distorting Gestures to Enhance Collaboration</div>
+              <div class="authors">Maurício Sousa, Rafael Kuffner Dos Anjos, Daniel Mendes, Mark Billinghurst, Joaquim Jorge</div>
+              <div class="conference">CHI 2019</div>
+              <div class="links"><a target="_blank" href="papers/2019/paper608.pdf">Paper</a><!--<a target="_blank" href="https://www.youtube.com/watch?v=P2BvFkvsl9Y">Video</a>--></div>
+            </div>
+          </div>
+        
+          <h3 class="year y2018"><a onclick="javascript:showPublications('2018');">2018</a></h3>
+          
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/vrst18.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Keep my head on my shoulders!: why third-person is bad for navigation in VR</div>
+              <div class="authors">Daniel Medeiros, Rafael Kuffner dos Anjos, Daniel Mendes, João Madeiras Pereira, Alberto Raposo, Joaquim Jorge</div>
+              <div class="conference">VRST 2018</div>
+              <div class="links"><a target="_blank" href="papers/2018/a16-medeiros.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=P_UFOC0U1XQ">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/icgi18.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Investigating Workspace Awareness in 3D Face-to-Face Remote Collaboration</div>
+              <div class="authors">Maurício Sousa, Daniel Mendes, Rafael Kuffner dos Anjos, Daniel Simões Lopes, Joaquim Jorge</div>
+              <div class="conference">ICGI 2018 <img src="imgs/award16.png" /><b>Best Poster Award</b></div>
+              <div class="links"><a target="_blank" href="papers/2018/icgi_2018-190-191.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/stag18.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">A Study on Natural 3D Shape Manipulation in VR</div>
+              <div class="authors">Eduardo Cordeiro, Franca Giannini, Marina Monti, Daniel Mendes, Alfredo Ferreira</div>
+              <div class="conference">STAG 2018</div>
+              <div class="links"><a target="_blank" href="papers/2018/035-043.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/phd.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Manipulation of 3D Objects in Immersive Virtual Environments</div>
+              <div class="authors">Daniel Mendes</div>
+              <div class="conference">PhD Thesis</div>
+              <div class="links"><a target="_blank" href="papers/2018/phd_thesis_final.pdf">Thesis</a></div>
+            </div>
+          </div>
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/vr18.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Smart Choices for Deviceless and Device-Based Manipulation in Immersive Virtual Reality</div>
+              <div class="authors">Fabio Marco Caputo, Daniel Mendes, Alessia Bonetti, Giacomo Saletti, Andrea Giachetti</div>
+              <div class="conference">VR 2018</div>
+              <div class="links"><a target="_blank" href="papers/2018/08446598.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row 2018">
+            <div class="image col-md-2"><img src="imgs/cgf18.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">A Survey on 3D Virtual Object Manipulation: from the Desktop to Immersive Virtual Environments</div>
+              <div class="authors">Daniel Mendes, Fabio Marco Caputo, Andrea Giachetti, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">Computer Graphics Forum</div>
+              <div class="links"><a target="_blank" href="papers/2018/survey3dom_preprint.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2017"><a onclick="javascript:showPublications('2017');">2017</a></h3>
+          
+          <div class="publication row journal 2017">
+            <div class="image col-md-2"><img src="imgs/interactions.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Demo hour</div>
+              <div class="authors">Paden Shorey, Audrey Girouard, Sang Ho Yoon, Yunbo Zhang, Ke Huo, Karthik Ramani, Mauricio Sousa, Daniel Mendes, Soraia Paulo, Nuno Matela, Joaquim Jorge, Daniel Simões Lopes, Dirk Wenig, Johannes Schöning, Alex Olwal, Mathias Oben, Rainer Malaka</div>
+              <div class="conference">Interactions Volume 24 Issue 6</div>
+              <div class="links"><a target="_blank" href="papers/2017/p8-shorey.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2017">
+            <div class="image col-md-2"><img src="imgs/vrst17.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Using Custom Transformation Axes for Mid-Air Manipulation of 3D Virtual Objects</div>
+              <div class="authors">Daniel Mendes, Maur&iacute;cio Sousa, Rodrigo Lorena, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">VRST 2017</div>
+              <div class="links"><a target="_blank" href="papers/2017/27-0326-mendes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=P2BvFkvsl9Y">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2017">
+            <div class="image col-md-2"><img src="imgs/iss17.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Creepy Tracker Toolkit for Context-aware Interfaces</div>
+              <div class="authors">Maur&iacute;cio Sousa, Daniel Mendes, Rafael Kuffner dos Anjos, Daniel Medeiros, Alberto Raposo, Alfredo Ferreira, João Pereira, Joaquim Jorge</div>
+              <div class="conference">ISS 2017</div>
+              <div class="links"><a target="_blank" href="papers/2017/p191-sousa.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=ixS1Otp13cA">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2017">
+            <div class="image col-md-2"><img src="imgs/epcgi17.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Manipulação de Objetos Virtuais em VR utilizando Eixos de Transformação Personalizados</div>
+              <div class="authors">Daniel Mendes, Rodrigo Lorena, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">EPCGI'17</div>
+              <div class="links"><a target="_blank" href="papers/2017/Atas_EPCGI2017_76-79.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row journal 2017">
+            <div class="image col-md-2"><img src="imgs/cag17.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Design and evaluation of a novel out-of-reach selection technique for VR using iterative refinement</div>
+              <div class="authors">Daniel Mendes, Daniel Medeiros, Maur&iacute;cio Sousa, Eduardo Cordeiro, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">Computers &amp; Graphics Volume 67</div>
+              <div class="links"><a target="_blank" href="papers/2017/1-s2.0-S0097849317300778-main.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=a38WXt9Um6A">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2017">
+            <div class="image col-md-2"><img src="imgs/chi17.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">VRRRRoom: Virtual Reality for Radiologists in the Reading Room</div>
+              <div class="authors">Maur&iacute;cio Sousa, Daniel Mendes, Soraia Paulo, Nuno Matela, Joaquim Jorge, Daniel Simões Lopes</div>
+              <div class="conference">CHI 2017</div>
+              <div class="links"><a target="_blank" href="papers/2017/p4057-sousa.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=JWOG0b_TxtQ">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2017">
+            <div class="image col-md-2"><img src="imgs/3dui17_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Mid-Air Modeling with Boolean Operations in VR</div>
+              <div class="authors">Daniel Mendes, Daniel Medeiros, Maur&iacute;cio Sousa, Ricardo Ferreira, Alberto Raposo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">3DUI 2017</div>
+              <div class="links"><a target="_blank" href="papers/2017/p154-mendes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=2J4lUrkTMoU">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2017">
+            <div class="image col-md-2"><img src="imgs/3dui17_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">PRECIOUS! Out-of-Reach Selection using Iterative Refinement in VR</div>
+              <div class="authors">Daniel Mendes, Daniel Medeiros, Eduardo Cordeiro, Maur&iacute;cio Sousa, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">3DUI 2017</div>
+              <div class="links"><a target="_blank" href="papers/2017/p237-mendes.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2016"><a onclick="javascript:showPublications('2016');">2016</a></h3>
+          
+          <div class="publication row journal 2016">
+            <div class="image col-md-2"><img src="imgs/cmisbook16.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Remote Proxemics</div>
+              <div class="authors">Maur&iacute;cio Sousa, Daniel Mendes, Daniel Medeiros, Alfredo Ferreira, João Pereira, Joaquim Jorge</div>
+              <div class="conference">Collaboration Meets Interactive Spaces</div>
+              <div class="links"><a target="_blank" href="http://dx.doi.org/10.1007/978-3-319-45853-3_4">Chapter</a>
+              <a target="_blank" href="papers/2016/RemoteProxemicsPreprint.pdf">Pre-print</a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2016">
+            <div class="image col-md-2"><img src="imgs/epcgi16_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Separating Degrees of Freedom for Object Manipulation in VR</div>
+              <div class="authors">Filipe Relvas, Daniel Mendes, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">EPCGI'16</div>
+              <div class="links"><a target="_blank" href="papers/2016/07851188.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2016">
+            <div class="image col-md-2"><img src="imgs/epcgi16_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Evaluation of Travel Techniques for Virtual Reality</div>
+              <div class="authors">Eduardo Cordeiro, Daniel Medeiros, Daniel Mendes, Maur&iacute;cio Sousa, Alberto Raposo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">EPCGI'16</div>
+              <div class="links"><a target="_blank" href="papers/2016/epcgi2016_151-154.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2016">
+            <div class="image col-md-2"><img src="imgs/vrst16_3.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">The Benefits of DOF Separation in Mid-air 3D Object Manipulation</div>
+              <div class="authors">Daniel Mendes, Filipe Relvas, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">VRST 2016</div>
+              <div class="links"><a target="_blank" href="papers/2016/261-36-0160-mendes.done.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=68qruM4p6J0">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2016">
+            <div class="image col-md-2"><img src="imgs/vrst16_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Perceiving Depth: Optical versus Video See-through</div>
+              <div class="authors">Daniel Medeiros, Maur&iacute;cio Sousa, Daniel Mendes, Alberto Raposo, Joaquim Jorge</div>
+              <div class="conference">VRST 2016</div>
+              <div class="links"><a target="_blank" href="papers/2016/237-33-0191-medeiros.done.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2016">
+            <div class="image col-md-2"><img src="imgs/vrst16_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Effects of Speed and Transitions on Target-based Travel Techniques</div>
+              <div class="authors">Daniel Medeiros, Eduardo Cordeiro, Daniel Mendes, Maur&iacute;cio Sousa, Alberto Raposo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">VRST 2016</div>
+              <div class="links"><a target="_blank" href="papers/2016/327-59-0228-medeiros.done.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row journal 2016">
+            <div class="image col-md-2"><img src="imgs/comp_geosc.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Expeditious illustration of layer-cake models on and above a tactile surface</div>
+              <div class="authors">Daniel Lopes, Daniel Mendes, Maur&iacute;cio Sousa, Joaquim Jorge</div>
+              <div class="conference">Computers &amp; Geosciences, Volume 90, Part A</div>
+              <div class="links"><a target="_blank" href="papers/2016/1-s2.0-S0098300416300334-main.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=plUscp1-50k">Video</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2015"><a onclick="javascript:showPublications('2015');">2015</a></h3>
+          
+          <div class="publication row journal 2015">
+            <div class="image col-md-2"><img src="imgs/ijcicg.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">LS3D: LEGO Search Combining Speech and Stereoscopic 3D</div>
+              <div class="authors">Pedro Pascoal, Daniel Mendes, Diogo Henriques, Isabel Trancoso, Alfredo Ferreira</div>
+              <div class="conference">IJCICG Volume 6 Issue 2</div>
+              <div class="links"><!--<a target="_blank" href="http://www.igi-global.com/article/ls3d/147170">Link</a>--><a target="_blank" href="papers/2015/ijcicg.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=Fcg0SO9MdUI">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row thesis 2015">
+            <div class="image col-md-2"><img src="imgs/cat.png" /></div>
+            <div class="col-md-10">
+              <div class="title">Manipulation of 3D Objects in Immersive Virtual Environments</div>
+              <div class="authors">Daniel Mendes</div>
+              <div class="conference">PhD Thesis Proposal</div>
+              <div class="links"><a target="_blank" href="papers/2015/CAT.pdf">Proposal</a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2015">
+            <div class="image col-md-2"><img src="imgs/scitecin_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Mid-Air Manipulation of 3D Models in (Semi-)Immersive Virtual Environments</div>
+              <div class="authors">Vasco Rodrigues, Daniel Mendes, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">SciTecIN'15</div>
+              <div class="links"><a target="_blank" href="papers/2015/epcgi2015-118-125.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2015">
+            <div class="image col-md-2"><img src="imgs/scitecin_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Modelação em Superfícies Interactivas para Fabricação 3D</div>
+              <div class="authors">Daniel Mendes, Pedro Pascoal, Miguel Nixo, Alfredo Ferreira</div>
+              <div class="conference">SciTecIN'15</div>
+              <div class="links"><a target="_blank" href="papers/2015/epcgi2015-106-113.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2015">
+            <div class="image col-md-2"><img src="imgs/scitecin_3.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Especificação de Interrogações para Recuperação 3D em Ambiente Imersivo</div>
+              <div class="authors">Pedro Pascoal, Daniel Mendes, Alfredo Ferreira, Miguel Sales Dias</div>
+              <div class="conference">SciTecIN'15</div>
+              <div class="links"><a target="_blank" href="papers/2015/epcgi2015-143-150.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2015">
+            <div class="image col-md-2"><img src="imgs/interact15.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Eery Space: Facilitating Virtual Meetings Through Remote Proxemics</div>
+              <div class="authors">Maur&iacute;cio Sousa, Daniel Mendes, Alfredo Ferreira, João Pereira, Joaquim Jorge</div>
+              <div class="conference">INTERACT 2015</div>
+              <div class="links"><a target="_blank" href="papers/2015/92980043.pdf">Paper</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2014"><a onclick="javascript:showPublications('2014');">2014</a></h3>
+          
+          <div class="publication row journal 2014">
+            <div class="image col-md-2"><img src="imgs/joelho14.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Interactive Stereoscopic Visualization of Alberti Architectural Models</div>
+              <div class="authors">Bruno Ara&uacute;jo, Daniel Mendes, Fernando Fonseca, Alfredo Ferreira, Joaquim Jorge, Eduardo Costa, Bruno Figueiredo, Filipe Coutinho, Jos&eacute; Pinto Duarte</div>
+              <div class="conference">Joelho No. 5</div>
+              <div class="links"><a target="_blank" href="papers/2014/joelho05Araujo.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=tU6BcsRR5Bs">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/egve.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Beyond Post-It: Structured Multimedia Annotations for Collaborative VEs</div>
+              <div class="authors">João Guerreiro, Daniel Medeiros, Daniel Mendes, Maur&iacute;cio Sousa, Joaquim Jorge, Alberto Raposo, Ismael Santos</div>
+              <div class="conference">ICAT-EGVE 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/055-062.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/its14.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">ThumbCam: Returning to single touch interactions to explore 3D virtual environments</div>
+              <div class="authors">Daniel Mendes, Maur&iacute;cio Sousa, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">ITS 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/p403-mendes.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row workshop 2014">
+            <div class="image col-md-2"><img src="imgs/cmis14.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Enabling Remote Proxemics through Multiple Surfaces</div>
+              <div class="authors">Daniel Mendes, Maurício Sousa, Alfredo Ferreira, João Pereira, Joaquim Jorge</div>
+              <div class="conference">CmIS Workshop (ITS 2014)</div>
+              <div class="links"><a target="_blank" href="papers/2014/cmis2014_submission_3.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=nBXJJ8RdvDA">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2014">
+            <div class="image col-md-2"><img src="imgs/epcg14_3.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Eery Proxemics: Proximidade à Distância usando Múltiplas Superfícies</div>
+              <div class="authors">Maurício Sousa, Daniel Mendes, Alfredo Ferreira, João Pereira, Joaquim Jorge</div>
+              <div class="conference">EPCG 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/EPCG2014_p186.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2014">
+            <div class="image col-md-2"><img src="imgs/epcg14_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Modelação Expedita de Terrenos e Subsolo via Interacção Espacial e Superfícies Interactivas</div>
+              <div class="authors">Daniel Lopes, Daniel Simão, Fernando Fonseca, Daniel Mendes, Joaquim Jorge</div>
+              <div class="conference">EPCG 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/EPCG2014_p104.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2014">
+            <div class="image col-md-2"><img src="imgs/epcg14_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">LS3D: Pesquisa de Blocos LEGO em Ambientes Imersivos</div>
+              <div class="authors">Pedro Pascoal, Daniel Mendes, Diogo Henriques, Isabel Trancoso, Alfredo Ferreira</div>
+              <div class="conference">EPCG 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/EPCG2014_p48.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/interspeech14.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Verbal description of LEGO blocks</div>
+              <div class="authors">Diogo Henriques, Isabel Trancoso, Daniel Mendes, Alfredo Ferreira</div>
+              <div class="conference">INTERSPEECH 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/IS141115.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/ecaade14.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Interactive Tabletops for Architectural Visualization</div>
+              <div class="authors">Bruno Figueiredo, Eduardo Castro e Costa, Bruno Ara&uacute;jo, Fernando Fonseca, Daniel Mendes, Joaquim Jorge, Jos&eacute; Pinto Duarte</div>
+              <div class="conference">eCAADe 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/ecaade2014_208.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/3dui14_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Mid-air interactions above stereoscopic interactive tables</div>
+              <div class="authors">Daniel Mendes, Fernando Fonseca, Bruno Ara&uacute;jo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">3DUI 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/mendes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=ZyB6JngJnFs">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2014">
+            <div class="image col-md-2"><img src="imgs/3dui14_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Evaluation of Immersive Visualization Techniques for 3D Object Retrieval</div>
+              <div class="authors">Diogo Henriques, Daniel Mendes, Pedro Pascoal, Isabel Trancoso, Alfredo Ferreira</div>
+              <div class="conference">3DUI 2014</div>
+              <div class="links"><a target="_blank" href="papers/2014/henriques.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=KVAXAS3cUPs">Video</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2013"><a onclick="javascript:showPublications('2013');">2013</a></h3>
+          
+          <div class="publication row natconf 2013">
+            <div class="image col-md-2"><img src="imgs/interacao13_2.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Qual Pe&ccedil;a? Identifica&ccedil;&atilde;o de M&eacute;todos Naturais para a Descri&ccedil;&atilde;o de Objectos 3D</div>
+              <div class="authors">Daniel Mendes, Diogo Henriques, Isabel Trancoso, Alfredo Ferreira</div>
+              <div class="conference">Interação 2013</div>
+              <div class="links"><a target="_blank" href="papers/2013/Interacao_2013_p2.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2013">
+            <div class="image col-md-2"><img src="imgs/interacao13_3.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Manipula&ccedil;&otilde;es no espa&ccedil;o sobre mesas interativas com estereoscopia</div>
+              <div class="authors">Fernando Fonseca, Daniel Mendes, Bruno Ara&uacute;jo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">Interação 2013</div>
+              <div class="links"><a target="_blank" href="papers/2013/Interacao_2013_p9.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2013">
+            <div class="image col-md-2"><img src="imgs/interacao13_1.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Combina&ccedil;&atilde;o de t&eacute;cnicas de recupera&ccedil;&atilde;o com dete&ccedil;&atilde;o de cores para explora&ccedil;&atilde;o de pesquisas de imagens</div>
+              <div class="authors">Daniel Mendes, Pedro Pascoal, Manuel Fonseca, Alfredo Ferreira</div>
+              <div class="conference">Interação 2013</div>
+              <div class="links"><a target="_blank" href="papers/2013/Interacao_2013_p173.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row workshop 2013">
+            <div class="image col-md-2"><img src="imgs/isis13.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">3D mid-air manipulation techniques above stereoscopic tabletops</div>
+              <div class="authors">Fernando Fonseca, Daniel Mendes, Bruno Ara&uacute;jo, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">ISIS3D Workshop (ITS 2013)</div>
+              <div class="links"><a target="_blank" href="papers/2013/Fonseca.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row workshop 2013">
+            <div class="image col-md-2"><img src="imgs/cmis13.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Envisioning Multi-Surface Collaborative Review of 3D Virtual Models</div>
+              <div class="authors">Daniel Mendes, Alfredo Ferreira, Joaquim Jorge</div>
+              <div class="conference">CmIS Workshop (ITS 2013)</div>
+              <div class="links"><a target="_blank" href="papers/2013/CmIS_paper17.pdf">Paper</a></div>
+            </div>
+          </div>
+          <div class="publication row workshop 2013">
+            <div class="image col-md-2"><img src="imgs/powerwall13.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Collaborative 3D Visualization on Large Screen Displays</div>
+              <div class="authors">Daniel Mendes, Maur&iacute;cio Sousa, Bruno Ara&uacute;jo, Alfredo Ferreira, Hildegardo Noronha, Pedro Campos, Luciano Soares, Alberto Raposo, Joaquim Jorge</div>
+              <div class="conference">Powerwall Workshop (CHI 2013)</div>
+              <div class="links"><a target="_blank" href="papers/2013/POWERWALL-Mendes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=D5-0qCNBv38">Video</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2011"><a onclick="javascript:showPublications('2011');">2011</a></h3>
+
+          <div class="publication row intconf 2011">
+            <div class="image col-md-2"><img src="imgs/ace11.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Hands-on Interactive Tabletop LEGO Application</div>
+              <div class="authors">Daniel Mendes, Pedro Lopes, Alfredo Ferreira</div>
+              <div class="conference">ACE 2011</div>
+              <div class="links"><a target="_blank" href="papers/2011/a19-mendes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=u3bNHoLoYZo">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row thesis 2011">
+            <div class="image col-md-2"><img src="imgs/msc.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">LTouchIt: Modela&ccedil;&atilde;o de LEGO em Superf&iacute;cies Multi-toque</div>
+              <div class="authors">Daniel Mendes</div>
+              <div class="conference">MSc Thesis</div>
+              <div class="links">
+                <a target="_blank" href="papers/2011/extendedabs.pdf">Extended Abstract</a>
+                <a target="_blank" href="papers/2011/dissertacao.pdf">Thesis <img src="imgs/pt.gif" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="publication row intconf 2011">
+            <div class="image col-md-2"><img src="imgs/interact11.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Evaluation of 3D object manipulation on multi-touch surfaces using unconstrained viewing angles</div>
+              <div class="authors">Daniel Mendes, Alfredo Ferreira</div>
+              <div class="conference">INTERACT 2011</div>
+              <div class="links"><a target="_blank" href="papers/2011/Interact2011_p523.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=Ro5D2GV0kk0">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2011">
+            <div class="image col-md-2"><img src="imgs/sbim11.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Combining bimanual manipulation and pen-based input for 3D modelling</div>
+              <div class="authors">Pedro Lopes, Daniel Mendes, Bruno Ara&uacute;jo, Joaquim Jorge</div>
+              <div class="conference">SBIM 2011</div>
+              <div class="links"><a target="_blank" href="papers/2011/p15-lopes.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=Whfswnk0xtw">Video</a></div>
+            </div>
+          </div>
+          <div class="publication row intconf 2011">
+            <div class="image col-md-2"><img src="imgs/wscg11.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Virtual LEGO Modelling on Multi-Touch Surfaces</div>
+              <div class="authors">Daniel Mendes, Alfredo Ferreira</div>
+              <div class="conference">WSCG 2011</div>
+              <div class="links"><a target="_blank" href="papers/2011/WSCG2011_p73.pdf">Paper</a><a target="_blank" href="https://www.youtube.com/watch?v=apCf_d_lZUI">Video</a></div>
+            </div>
+          </div>
+          
+          <h3 class="year y2010"><a onclick="javascript:showPublications('2010');">2010</a></h3>
+          
+          <div class="publication row natconf 2010">
+            <div class="image col-md-2"><img src="imgs/interacao10.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Estudo Comparativo de Aplica&ccedil;&otilde;es para a Constru&ccedil;&atilde;o de Modelos LEGO&trade;</div>
+              <div class="authors">Daniel Mendes, Alfredo Ferreira</div>
+              <div class="conference">Interacção 2010</div>
+              <div class="links"><a target="_blank" href="papers/2010/Artigo_38.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+          <div class="publication row natconf 2010">
+            <div class="image col-md-2"><img src="imgs/videojogos10.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">The UnDad: Because brain matters</div>
+              <div class="authors">Daniel Mendes, David Lucas, João Oliveira, Paulo Figueiredo, Rui Prada, Carlos Martinho, Pedro Santos</div>
+              <div class="conference">Videojogos 2010</div>
+              <div class="links"><a target="_blank" href="papers/2010/VJ2010-D_P_203-204.pdf">Paper <img src="imgs/pt.gif" /></a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Students -->
+      <a name="students"></a>
+      <div class="section students">
+        <h2>Students</h2>
+        <h3>PhD</h3>
+        <ul>
+          <li><span class="student">João Moreira</span>, IncidentalVis, ongoing. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
+        </ul>
+        <h3>MSc</h3>
+        <ul>
+          <li><span class="student">Guilherme Amaro</span>, Navigation Techniques for Seated VR, ongoing.</li>
+          <li><span class="student">Bruno Carvalho</span>, Procedural content creation in VR, ongoing. (co-adviser to António Coelho)</li>
+          <li><span class="student">João Rafael</span>, FastGeo - Visualizing large amounts of geospatial data in real time, ongoing. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
+          <li><span class="student">Filipa Castanheira</span>, FastViz: Visualizing Dynamically Evolving Big Data, ongoing. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
+          <li><span class="student">Sofia Reis</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/1409728525632981">Auditory Collaborative Surfaces</a>, 2019. (co-adviser to <a target="_blank" href="http://web.ist.utl.pt/hugo.nicolau/">Hugo Nicolau</a>)</li>
+          <li><span class="student">Tiago Pereira</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/846778572212230">VisMillion (and Change) Visualizando Big Data em Evolução Dinâmica</a>, 2019. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
+          <li><span class="student">Rodrigo Lorena</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1691203502342788">Manipulating 3D Objects in Mid-Air using Virtual Rails</a>, 2017. (co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Filipe Relvas</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595500963">DOF Separation in Mid-air 3D Object Manipulation</a>, 2016. (co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Eduardo Cordeiro</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/283828618789981">Out-of-Reach interactions in VR</a>, 2016. (co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Ricardo Ferreira</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/283828618789945">Interaction Techniques for CSG Modeling in VR</a>, 2016. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a> and <a target="_blank" href="http://web.tecnico.ulisboa.pt/jorgej/">Joaquim Jorge</a>)</li>
+          <li><span class="student">Vasco Rodrigues</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/846778572211220">Manipulações de Modelos 3D no Espaço em Ambientes Virtuais (Semi-)Imersivos</a>, 2015. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Sara Martins</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/283828618789033">Especificação de Interrogações para Recuperação 3D em Ambiente Imersivo</a>, 2015. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Miguel Nixo</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/565303595500065">Modelling on Interactive Surfaces for 3D Fabrication</a>, 2015. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student"><a target="_blank" href="http://web.ist.utl.pt/antonio.sousa">Maurício Sousa</a></span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/283828618788916">Remote Proxemics for Collaborative Virtual Environments</a>, 2014. (unnoficial co-adviser to <a target="_blank" href="http://web.tecnico.ulisboa.pt/jorgej/">Joaquim Jorge</a> and <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+          <li><span class="student">Diogo Henriques</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/2353642473641">LSpeakIt:Interface Imersiva para Pesquisa de Objectos</a>, 2014. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a> and <a target="_blank" href="https://www.l2f.inesc-id.pt/wiki/index.php/Isabel_Trancoso">Isabel Trancoso</a>)</li>
+          <li><span class="student"><a target="_blank" href="http://web.ist.utl.pt/fernando.fonseca">Fernando Fonseca</a></span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/2353642450258">Manipulações no espaço sobre mesas interativas com estereoscopia</a>, 2013. (unnoficial co-adviser to <a target="_blank" href="http://web.ist.utl.pt/alfredo.ferreira/">Alfredo Ferreira</a>)</li>
+        </ul>
+      </div>
+
+      <!-- Teaching -->
+      <a name="teaching"></a> 
+      <div class="section teaching">
+        <h2>Teaching</h2>
+        <div class="content">
+          <h3>2020 / 2021 Summer Semester</h3>
+          <ul><li><span class="course">Computação Gráfica</span> (Computer Graphics) - MIEIC, Faculty of Engineering of the University of Porto</li></ul>
+        </div>
+        <div class="content">
+          <h3>2020 / 2021 Winter Semester</h3>
+          <ul><li><span class="course">Realidade Virtual e Aumentada</span> (Virtual and Augmented Reality) - MIEIC, Faculty of Engineering of the University of Porto</li></ul>
+          <ul><li><span class="course">Jogos Digitais</span> (Digital Games) - MM, Faculty of Engineering of the University of Porto</li></ul>
+        </div>
+        <div class="content">
+          <h3>2019 / 2020 Winter Semester</h3>
+          <ul><li><span class="course">Visualização de Informação</span> (Information Visualization) - MEIC-A, IST / University of Lisbon</li></ul>
+        </div>
+        <div class="content">
+          <h3>2015 / 2016 Summer Semester</h3>
+          <ul><li><span class="course">Interfaces Pessoa-Máquina</span> (Human-Computer Interfaces) - LEIC-A, IST / University of Lisbon</li></ul>
+        </div>
+        <div class="content">
+          <h3>2014 / 2015 Summer Semester</h3>
+          <ul><li><span class="course">Interfaces Pessoa-Máquina</span> (Human-Computer Interfaces) - LEIC-A, IST / University of Lisbon</li></ul>
+        </div>
+        <div class="content">
+          <h3>2013 / 2014 Winter Semester</h3>
+          <ul><li><span class="course">Interfaces Pessoa-Máquina</span> (Human-Computer Interfaces) - LEIC-T, IST / University of Lisbon</li></ul>
+<!--<a target="_blank" href="http://quc.tecnico.ulisboa.pt/files/sites/31/Docentes_Excelente_13_14_sem_1.pdf">Best Teacher</a>-->
+        </div>
+      </div>
+
+      <!-- Contacts -->
+      <a name="contacts"></a>
+      <div class="section contacts">
+        <h2>Contacts</h2>
+        <div class="content">
+    <!--Visualization and Intelligent MultiModal Interfaces Group - INESC-ID<br/>
+    Department of Information Systems and Computer Science<br/>
+    IST / University of Lisbon<br/>
+    Avenida Professor Cavaco Silva, Room 2-N9.25<br/>
+    2744-016 Porto Salvo<br/>
+    Rua Alves Redol 9, Room 532<br/>
+    1000-029 Lisboa<br/>
+    Portugal<br/>-->
+    E-mail: daniel.mendes at inesctec.pt / danielmendes at fe.up.pt / danielmendes at tecnico.ulisboa.pt / danielmendes at acm.org / danielmendes at ieee.org<br/>
+    Tel: <!--+351 214 233 566 / -->+351 934 120 489
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+    
+    <script src="./js/three.min.js"></script>
+    <script src="./js/OrbitControls.js"></script>
+    <script src="./js/OBJLoader.js"></script>
+    <script src="./js/Detector.js"></script>
+    <script src="./js/js.js"></script>
+
+</body></html>

@@ -1,0 +1,29 @@
+body { margin-bottom:50px; }
+
+.navbar-brand:hover { color:#9d9d9d !important; cursor:default; }
+.nav a { cursor: pointer; }
+
+.container .section { padding-top: 50px; }
+
+.container .section.aboutme h3 { margin-top:0; }
+.container .section.aboutme .image { width:135px;padding-right:0; }
+
+.container .section.projects a { margin-right:30px; }
+
+.container .section.publications .filter a { cursor: pointer; }
+.container .section.publications .filter.selected { display:none; }
+.container .section.publications .year.all { display:none; }
+.container .section.publications .year a { cursor: pointer; }
+.container .section.publications .publication { margin-bottom:10px;display:none; }
+.container .section.publications .publication.all {  }
+.container .section.publications .publication.recent { display:block; }
+.container .section.publications .publication .image { width:135px;padding-right:0; }
+.container .section.publications .publication .title { font-weight:bold; }
+.container .section.publications .publication .links a { margin-right:10px; }
+
+.container .section.teaching ul { margin-bottom:0; }
+.container .section.teaching .course { font-weight:bold; }
+
+.container .section.students ul { margin-bottom:0; }
+.container .section.students li { margin-top:5px; }
+.container .section.students .student { font-weight:bold; }
