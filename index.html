@@ -3,6 +3,8 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132483517-1"></script>
+    <script src="./content.js"></script>
+    <script src="./js/contentParser.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -94,6 +96,32 @@
       <div class="section publications">
         <h2>Publications</h2>
         <div class="content">
+        
+          <h3 class="year y2023"><a onclick="javascript:showPublications('2023');">2023</a></h3>
+        
+          <div class="publication row 2023 recent">
+            <!--<div class="image col-md-2"><img src="imgs/eurovis21.jpg" /></div>-->
+            <div class="image col-md-2"><img src="imgs/soon.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Graceful Degradation for Real-time Visualization of Streaming Geospatial Data</div>
+              <div class="authors">João Rafael, João Moreira, Daniel Mendes, Mário Alves, Daniel Gonçalves</div>
+              <div class="conference">EuroVis 2021</div>
+              <!--<div class="links"><a target="_blank" href="papers/2020/3427325.pdf">Paper</a></div>-->
+            </div>
+          </div>
+        
+          <h3 class="year y2022"><a onclick="javascript:showPublications('2022');">2022</a></h3>
+        
+          <div class="publication row 2022 recent">
+            <!--<div class="image col-md-2"><img src="imgs/eurovis21.jpg" /></div>-->
+            <div class="image col-md-2"><img src="imgs/soon.jpg" /></div>
+            <div class="col-md-10">
+              <div class="title">Graceful Degradation for Real-time Visualization of Streaming Geospatial Data</div>
+              <div class="authors">João Rafael, João Moreira, Daniel Mendes, Mário Alves, Daniel Gonçalves</div>
+              <div class="conference">EuroVis 2021</div>
+              <!--<div class="links"><a target="_blank" href="papers/2020/3427325.pdf">Paper</a></div>-->
+            </div>
+          </div>
         
           <h3 class="year y2021"><a onclick="javascript:showPublications('2021');">2021</a></h3>
         
@@ -738,13 +766,14 @@
         <h2>Students</h2>
         <h3>PhD</h3>
         <ul>
-          <li><span class="student">João Moreira</span>, IncidentalVis, ongoing. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
+          <script>document.write(parseStudents());</script>
         </ul>
         <h3>MSc</h3>
         <ul>
-          <li><span class="student">Guilherme Neves</span>, Immersive and Collaborative 3D Content Creation, ongoing. (co-adviser to Rui Rodrigues)</li>
-          <li><span class="student">Guilherme Amaro</span>, Navigation Techniques for Seated VR, ongoing.</li>
-          <li><span class="student">Bruno Carvalho</span>, Procedural content creation in VR, ongoing. (co-adviser to António Coelho)</li>
+          <li><span class="student">Guilherme Neves</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922036">Immersive and Collaborative 3D Content Creation</a>, 2023. (co-adviser to <a target="_blank" href="https://paginas.fe.up.pt/~ruirodrig/wiki/doku.php">Rui Rodrigues</a>)</li>
+          <li><span class="student">André Ramos</span>, <a target="_blank" href="https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=572806">Tangible Tokens for Multitouch Interfaces Based On Extended Triangular Patterns</a>, 2022. (co-adviser to <a target="_blank" href="https://paginas.fe.up.pt/~ruirodrig/wiki/doku.php">Rui Rodrigues</a>)</li>
+          <li><span class="student">Bruno Carvalho</span>, <a target="_blank" href="https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=545541">Procedural content creation in VR</a>, 2022. (co-adviser to António Coelho)</li>
+          <li><span class="student">Guilherme Amaro</span>, <a target="_blank" href="https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=513523">Navigation Techniques for Seated VR</a>, 2021.</li>
           <li><span class="student">João Rafael</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922036">FastGeo - Visualizing large amounts of geospatial data in real time</a>, 2021. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
           <li><span class="student">Filipa Castanheira</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/1128253548921996">FastViz: Visualizing Dynamically Evolving Big Data</a>, 2021. (co-adviser to <a target="_blank" href="http://danielgoncalves.info/">Daniel Gonçalves</a>)</li>
           <li><span class="student">Sofia Reis</span>, <a target="_blank" href="https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/1409728525632981">Auditory Collaborative Surfaces</a>, 2019. (co-adviser to <a target="_blank" href="http://web.ist.utl.pt/hugo.nicolau/">Hugo Nicolau</a>)</li>
@@ -799,16 +828,7 @@
       <div class="section contacts">
         <h2>Contacts</h2>
         <div class="content">
-    <!--Visualization and Intelligent MultiModal Interfaces Group - INESC-ID<br/>
-    Department of Information Systems and Computer Science<br/>
-    IST / University of Lisbon<br/>
-    Avenida Professor Cavaco Silva, Room 2-N9.25<br/>
-    2744-016 Porto Salvo<br/>
-    Rua Alves Redol 9, Room 532<br/>
-    1000-029 Lisboa<br/>
-    Portugal<br/>-->
-    E-mail: daniel.mendes at inesctec.pt / danielmendes at fe.up.pt / danielmendes at tecnico.ulisboa.pt / danielmendes at acm.org / danielmendes at ieee.org<br/>
-    Tel: <!--+351 214 233 566 / -->+351 934 120 489
+    E-mail: danielmendes at fe.up.pt<br/>
         </div>
       </div>
 
