@@ -783,6 +783,127 @@ var content =
             unnoficial: true
         }
     ],
+    subjects: [
+      {
+        year: '2022',
+        semester: 2,
+        name_pt: 'Desenho e Desenvolvimento de Jogos Digitais',
+        name_en: 'Design and Development of Digital Games',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2022',
+        semester: 2,
+        name_pt: 'Interfaces Multimodais',
+        name_en: 'Multimodal Interfaces',
+        course: 'MM, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2022',
+        semester: 2,
+        name_pt: 'Computação Gráfica',
+        name_en: 'Computer Graphics',
+        course: 'L.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2022',
+        semester: 1,
+        name_pt: 'Tópicos Avançados de Interação e Multimédia',
+        name_en: 'Advanced Topics in Interaction and Multimedia',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2022',
+        semester: 1,
+        name_pt: 'Realidade Virtual e Aumentada',
+        name_en: 'Virtual and Augmented Reality',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2022',
+        semester: 1,
+        name_pt: 'Interação Pessoa Computador',
+        name_en: 'Human-Computer Interaction',
+        course: 'L.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2021',
+        semester: 2,
+        name_pt: 'Desenho e Desenvolvimento de Jogos Digitais',
+        name_en: 'Design and Development of Digital Games',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2021',
+        semester: 1,
+        name_pt: 'Tópicos Avançados de Interação e Multimédia',
+        name_en: 'Advanced Topics in Interaction and Multimedia',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2021',
+        semester: 1,
+        name_pt: 'Realidade Virtual e Aumentada',
+        name_en: 'Virtual and Augmented Reality',
+        course: 'M.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2021',
+        semester: 1,
+        name_pt: 'Interação Pessoa Computador',
+        name_en: 'Human-Computer Interaction',
+        course: 'L.EIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2020',
+        semester: 2,
+        name_pt: 'Computação Gráfica',
+        name_en: 'Computer Graphics',
+        course: 'MIEIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2020',
+        semester: 1,
+        name_pt: 'Realidade Virtual e Aumentada',
+        name_en: 'Virtual and Augmented Reality',
+        course: 'MIEIC, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2020',
+        semester: 1,
+        name_pt: 'Jogos Digitais',
+        name_en: 'Digital Games',
+        course: 'MM, Faculty of Engineering, University of Porto'
+      },
+      {
+        year: '2019',
+        semester: 1,
+        name_pt: 'Visualização de Informação',
+        name_en: 'Information Visualization',
+        course: 'MEIC-A, Técnico Lisboa, University of Lisbon'
+      },
+      {
+        year: '2015',
+        semester: 2,
+        name_pt: 'Interfaces Pessoa-Máquina',
+        name_en: 'Human-Computer Interfaces',
+        course: 'LEIC-A, Técnico Lisboa, University of Lisbon'
+      },
+      {
+        year: '2014',
+        semester: 2,
+        name_pt: 'Interfaces Pessoa-Máquina',
+        name_en: 'Human-Computer Interfaces',
+        course: 'LEIC-A, Técnico Lisboa, University of Lisbon'
+      },
+      {
+        year: '2013',
+        semester: 1,
+        name_pt: 'Interfaces Pessoa-Máquina',
+        name_en: 'Human-Computer Interfaces',
+        course: 'LEIC-T, Técnico Lisboa, University of Lisbon'
+      },
+    ],
     links: {
         'Rui Rodrigues': 'https://paginas.fe.up.pt/~ruirodrig/wiki/doku.php',
         'Daniel Gonçalves': 'http://danielgoncalves.info/',

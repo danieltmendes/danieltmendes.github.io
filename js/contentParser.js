@@ -18,7 +18,7 @@ function filterArray(element)
 
 function parseStudents(degree)
 {
-  var output = "";
+  var output = '';
   filter = {'field': 'degree', 'value': degree};
   for (student of content.students.filter(filterArray))
   {
@@ -65,7 +65,7 @@ function parsePapers()
   years.sort();
   years.reverse();
 
-  var output = "";
+  var output = '';
   for (let y = 0; y < years.length; y++)
   {
     let year = years[y];
@@ -115,5 +115,23 @@ function parsePapers()
       output += '</div></div>';
     }
   }
+  return output;
+}
+
+function parseSubjects()
+{
+  var output = '';
+  var year = 0;
+  for(subject of content.subjects)
+  {
+    if(year != subject.year)
+    {
+      if(year > 0) output += '</ul></div>';
+      output += '<div class="content"><h3>' + subject.year + ' / ' + (parseInt(subject.year) + 1) + '</h3><ul>';
+      year = subject.year;
+    }
+    output += '<li><span class="course">' + subject.name_pt + '</span> (' + subject.name_en + ') - ' + subject.course + '</li>';
+  }
+  if(year > 0) output += '</ul></div>';
   return output;
 }
