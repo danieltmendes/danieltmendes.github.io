@@ -9,17 +9,111 @@ function getPersonLink(person)
     return '<a target="_blank" href="' + link + '">' + person + '</a>';
 }
 
-function parseStudents()
+var filter = null;
+
+function filterArray(element)
+{
+  return element[filter.field] == filter.value;
+}
+
+function parseStudents(degree)
 {
   var output = "";
-  for (student of content.students)
+  filter = {'field': 'degree', 'value': degree};
+  for (student of content.students.filter(filterArray))
   {
-    output += '<li><span class="student">' + getPersonLink(student.name) + '</span>, ' + student.title + ', ' + student.year + '.';
+    output += '<li><span class="student">' + getPersonLink(student.name) + '</span>, ';
+    
+    if(student.url != null)
+      output += '<a target="_blank" href="' + student.url + '">' + student.title + '</a>';
+    else
+      output += student.title;
+    
+    output += ', ' + student.year + '.';
 
     if(student.coadvisor != null)
-      output += ' (co-adviser to ' + getPersonLink(student.coadvisor) + ')';
+    {
+      output += ' (' + (student.unnoficial? 'unnoficial ' : '') + 'co-adviser to ';
+
+      if(Array.isArray(student.coadvisor))
+      {
+        for (let i = 0; i < student.coadvisor.length; i++) {
+          output += getPersonLink(student.coadvisor[i]);
+          if(i < student.coadvisor.length - 1)
+            output += ', ';
+        }
+      }
+      else
+        output += getPersonLink(student.coadvisor);
+      
+      output += ')';
+    }
 
     output += '</span></li>';
+  }
+  return output;
+}
+
+function parsePapers()
+{
+  var years = [];
+  for(paper of content.papers)
+  {
+    years.push(paper.year);
+  }
+  years = [...new Set(years)];
+  years.sort();
+  years.reverse();
+
+  var output = "";
+  for (let y = 0; y < years.length; y++)
+  {
+    let year = years[y];
+    output += '<h3 class="year y' + year + '"><a onclick="javascript:showPublications(' + "'" + year + "'" + ');">' + year + '</a></h3>';
+    
+    filter = {'field': 'year', 'value': year};
+    for (paper of content.papers.filter(filterArray))
+    {
+      output += '<div class="publication row ' + paper.year + (y == 0 ? ' recent' : '') + '">';
+      output += '<div class="image col-md-2"><img src="' + (paper.thumbnail ? paper.thumbnail : 'imgs/soon.jpg') + '" /></div><div class="col-md-10">';
+      output += '<div class="title">' + paper.title +'</div>';
+      output += '<div class="authors">' + paper.authors + '</div>';
+      output += '<div class="conference">' + paper.venue + (paper.award ? '<img src="imgs/award16.png" /><b>' + paper.award + '</b>' : '') + '</div>';
+    
+      if(paper.url)
+      {
+        output += '<div class="links">';
+        if(paper.thesis)
+        {
+          if(Array.isArray(paper.url))
+          {
+            output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url[1] + '">Extended Abstract' + '</a>';
+            output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url[0] + '">Thesis' + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+          }
+          else
+            output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url + '">Thesis' + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+        }
+        else if(paper.chapter)
+        {
+          if(Array.isArray(paper.url))
+          {
+            output += '<a target="_blank" href="' + paper.url[0] + '">Chapter' + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+            output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url[1] + '">Pre-print' + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+          }
+          else
+            output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url + '">Chapter' + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+        }
+        else
+          output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.url + '">' + (paper.proposal ? 'Proposal' : 'Paper') + (paper.portuguese? ' <img src="imgs/pt.gif" />' : '') + '</a>';
+        
+        if(paper.video)
+          output += '<a target="_blank" href="papers/' + paper.year + '/' + paper.video + '">Video</a>';
+
+        output += '</div>';
+      }
+      
+      output += '</div></div>';
+    }
   }
   return output;
 }
