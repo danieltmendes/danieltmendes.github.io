@@ -633,12 +633,76 @@ var content =
         },
         // MSc
         {
+            name: 'Diogo Rosário',
+            year: '2023',
+            title: 'Improving Absolute Inputs for Interactive Surfaces in VR',
+            coadvisor: ['Rui Rodrigues','Teresa Matos'],
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Henrique Ribeiro',
+            year: '2023',
+            title: 'Material Changing Haptics for VR',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Carlos Lousada',
+            year: '2023',
+            title: 'Exploring Pseudo-Haptics for Object Compliance in VR',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Diogo Almeida',
+            year: '2023',
+            title: 'Object Manipulation in Desk VR',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
             name: 'Luís Neves',
             year: '2023',
             title: 'Accountability in Immersive Content Creation Platforms',
             coadvisor: 'Rui Rodrigues',
             degree: 'MSc',
             url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Filipe Barbosa',
+            year: '2022',
+            title: 'Shape-A-Getti: A Haptic Device for Getting Multiple Shapes Using a Simple Actuator',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Paulo Moutinho',
+            year: '2022',
+            title: 'Immersive 2D Scatterplots and Parallel Coordinates for Information Visualization in a Virtual Reality Environment',
+            coadvisor: ['Alexandre Carvalho','Rui Rodrigues'],
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'Daniel Bradaschia',
+            year: '2022',
+            title: 'Asymmetric Collaboration for 3D Animation Review',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
+        },
+        {
+            name: 'João Monteiro',
+            year: '2022',
+            title: 'Object Selection in DeskVR',
+            coadvisor: 'Rui Rodrigues',
+            degree: 'MSc',
+            //url: 'https://sigarra.up.pt/feup/pt/pub_geral.pub_view?pi_pub_base_id=629348'
         },
         {
             name: 'André Ramos',
