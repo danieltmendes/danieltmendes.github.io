@@ -4,6 +4,48 @@ var content =
     papers: [
       {
         year: '2023',
+        title: 'Exploring Pseudo-Haptics for Object Compliance in Virtual Reality',
+        authors: 'Carlos Lousada, Daniel Mendes, Rui Rodrigues',
+        venue: 'ICGI 2023', award: 'Best Conference Paper Award',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
+        title: 'Shape-A-Getti: a haptic device for getting multiple shapes using a simple actuator',
+        authors: 'Filipe Barbosa, Daniel Mendes, Rui Rodrigues',
+        venue: 'Computers & Graphics',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
+        title: 'SIT6: Indirect touch-based object manipulation for DeskVR',
+        authors: 'Diogo Almeida, Daniel Mendes, Rui Rodrigues',
+        venue: 'Computers & Graphics',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
+        title: 'TouchRay: Towards Low-effort Object Selection at Any Distance in DeskVR',
+        authors: 'João Monteiro, Daniel Mendes, Rui Rodrigues',
+        venue: 'ISMAR 2023',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
+        title: 'CIDER: Collaborative Interior Design in Extended Reality',
+        authors: 'Deborah Pintani, Ariel Caputo, Daniel Mendes, Andrea Giachetti',
+        venue: 'CHItaly 2023',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
+        title: 'Incidental graphical perception: How marks and display time influence accuracy',
+        authors: 'João Moreira, Daniel Mendes, Daniel Gonçalves',
+        venue: 'Information Visualization',
+        //url: 'moreira-et-al.pdf'
+      },
+      {
+        year: '2023',
         title: 'Impact of incidental visualizations on primary tasks',
         authors: 'João Moreira, Daniel Mendes, Daniel Gonçalves',
         venue: 'Information Visualization',
@@ -13,7 +55,7 @@ var content =
         year: '2023',
         title: 'Magic: Manipulating avatars and gestures to improve remote collaboration',
         authors: 'Catarina G Fidalgo, Maurício Sousa, Daniel Mendes, Rafael Kuffner Dos Anjos, Daniel Medeiros, Karan Singh, Joaquim Jorge',
-        venue: 'IEEE VR',
+        venue: 'IEEE VR 2023',
         url: 'MAGIC.pdf'
       },
       {
@@ -56,7 +98,7 @@ var content =
         year: '2021',
         title: 'Evaluating Transitions for Streaming Big Data',
         authors: 'Filipa Castanheira, João Moreira, Daniel Mendes, Daniel Gonçalves',
-        venue: 'ICGI 2021',
+        venue: 'ICGI 2021', award: 'Best Conference Paper Award',
         url: 'ICGI_2021_Evaluating.pdf'
       },
       {
