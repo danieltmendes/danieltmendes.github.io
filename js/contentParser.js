@@ -75,8 +75,8 @@ function parsePapers()
     for (paper of content.papers.filter(filterArray))
     {
       output += '<div class="publication row ' + paper.year + (y == 0 ? ' recent' : '') + '">';
-      output += '<div class="image col-md-2"><img src="' + (paper.thumbnail ? paper.thumbnail : 'imgs/soon.jpg') + '" /></div><div class="col-md-10">';
-      output += '<div class="title">' + paper.title +'</div>';
+      if(paper.thumbnail) output += '<div class="image col-md-2"><img src="' + (paper.thumbnail ? paper.thumbnail : 'imgs/soon.jpg') + '" /></div>';
+      output += '<div class="col-md-10"><div class="title">' + paper.title +'</div>';
       output += '<div class="authors">' + paper.authors + '</div>';
       output += '<div class="conference">' + paper.venue + (paper.award ? '<img src="imgs/award16.png" /><b>' + paper.award + '</b>' : '') + '</div>';
     

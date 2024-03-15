@@ -266,7 +266,7 @@ var content =
             year: '2018',
             title: 'A Survey on 3D Virtual Object Manipulation: from the Desktop to Immersive Virtual Environments',
             authors: 'Daniel Mendes, Fabio Marco Caputo, Andrea Giachetti, Alfredo Ferreira, Joaquim Jorge',
-            venue: 'Computer Graphics Forum',
+            venue: 'Computer Graphics Forum', award:'2018 Professor José Luís Encarnação Award',
             url: 'survey3dom_preprint.pdf',
           },
           {
@@ -306,7 +306,7 @@ var content =
             year: '2017',
             title: 'Design and evaluation of a novel out-of-reach selection technique for VR using iterative refinement',
             authors: 'Daniel Mendes, Daniel Medeiros, Maur&iacute;cio Sousa, Eduardo Cordeiro, Alfredo Ferreira, Joaquim Jorge',
-            venue: 'Computers &amp; Graphics Volume 67',
+            venue: 'Computers &amp; Graphics Volume 67', award: 'SCCG 2017 Honorable Mention',
             url: '1-s2.0-S0097849317300778-main.pdf', video: 'https://www.youtube.com/watch?v=a38WXt9Um6A',
           },
           {
